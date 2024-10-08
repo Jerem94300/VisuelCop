@@ -91,10 +91,16 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold" href="#">Fiche membre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold" href="#">Actualités</a>
+                <a class="nav-link fs-5 fw-bold" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    Actualités
+                  </a>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                    </div>
+                  
               </li>
               <li class="nav-item">
                 <a class="nav-link fs-5 fw-bold" href="#">Communauté</a>
@@ -103,7 +109,9 @@
             <ul>
               <span class="navbar-text">
                 <li class="nav-item">
-                  <a class="nav-link fs-5 fw-bold" href="#">Connexion</a>
+                  <a class="link__modal fs-5 fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Connexion
+                  </a>
                 </li>
 
                 <li class="nav-item">
@@ -119,6 +127,41 @@
           </div>
         </div>
       </nav>
+
+      <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content fs-5 fw-bold">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Connectez-vous</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="email" placeholder="email">
+        </div>
+        <div class="modal-body">
+            <input type="password" placeholder=" Mot de passe">
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
     </header>
 
     <main class="main">

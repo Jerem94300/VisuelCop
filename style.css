@@ -43,6 +43,15 @@ body, html{
 
 }
 
+.modal-content{
+    color: bisque;
+    background-color: rgb(29, 89, 124);
+}
+
+.offcanvas{
+    position: relative;
+    z-index: 10000;
+}
 
 
 
