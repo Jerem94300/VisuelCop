@@ -1,1 +1,33 @@
 @import url(/CSS/reset.css);
+
+
+
+
+.d-block{
+
+    height: 330px;
+}
+
+.picture__presentation, .picture__card{
+
+    border-radius: 2rem;
+}
+
+
+.picture__card{
+
+    border-radius: 1rem;
+}
+
+
+
+.footer2{
+    height: 4rem;
+}
+
+
+.nav__footer{
+    max-width: 800px;
+}
+
+
