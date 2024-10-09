@@ -1,11 +1,5 @@
 @import url(/CSS/reset.css);
 
-body, html{
-
-    background-color: grey ;
-}
-
-
 
 
 .logo__header{
@@ -14,35 +8,6 @@ body, html{
 }
 
 
-.d-block{
-  
-
-    height: 330px;
-}
-
-.picture__presentation, .picture__card{
-
-    border-radius: 2rem;
-}
-
-
-
-.picture__card{
-
-    border-radius: 1rem;
-}
-
-
-
-.content__card{
-    border-radius: 2rem 0 0 2rem;
-
-}
-
-.content__card__video{
-    border-radius: 0 2rem 2rem 0;
-
-}
 
 .modal-content{
     color: bisque;
@@ -53,24 +18,56 @@ body, html{
     background-color: rgb(29, 89, 124);   
 }
 
+.container{
+    position: relative;
+ 
+
+}
+
+.picture__presentation{
+    position: relative;
 
 
 
+}
 
+.picture__item{
+    display: flex;
+    border-radius: 2rem;
+    opacity: 95%;
+}
 
-
-
+.block__presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .footer2{
-    height: 4rem;
     position: relative;
 }
 
 
-.administratifs{
-    max-width: 800px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes animate {
     0%{
@@ -337,60 +334,4 @@ body, html{
     height: 118px;
     bottom: -118px;
     animation-delay: 114s;
-}
-
-
-
-
-/* media queries */
-
-
-@media screen and (max-width: 768px) {
-
-
-    .d-block{
-        width: 100%;
-    }
-
- 
-
-
-
-
-    .card__member{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 2rem;
-       
-       
-    }
-
-    .info__member{
-        position: absolute;
-        display: flex;
-        align-self: end;
-       
-
-    }
-
-    .job__member{
-        display: flex;
-        margin-top: 1rem;
-        align-self: center;
-    }
-
-    .name__member, .firstName__member{
-        display: flex;
-        justify-self: end;
-        align-self: end;
-
-
-
-    }
-
-    .footer2{
-       height: 5rem;
-    }
-
-    
 }
