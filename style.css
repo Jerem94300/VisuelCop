@@ -49,8 +49,7 @@ body, html{
 }
 
 .offcanvas{
-    position: relative;
-    z-index: 10000;
+    background-color: rgb(29, 89, 124);   
 }
 
 
@@ -339,3 +338,58 @@ body, html{
     animation-delay: 114s;
 }
 
+
+
+
+/* media queries */
+
+
+@media screen and (max-width: 768px) {
+
+
+    .d-block{
+        width: 100%;
+    }
+
+ 
+
+
+
+
+    .card__member{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+       
+       
+    }
+
+    .info__member{
+        position: absolute;
+        display: flex;
+        align-self: end;
+       
+
+    }
+
+    .job__member{
+        display: flex;
+        margin-top: 1rem;
+        align-self: center;
+    }
+
+    .name__member, .firstName__member{
+        display: flex;
+        justify-self: end;
+        align-self: end;
+
+
+
+    }
+
+    .footer2{
+       height: 5rem;
+    }
+
+    
+}
