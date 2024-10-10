@@ -345,6 +345,26 @@ body, html{
 /* media queries */
 
 
+@media screen and (min-width: 1044px) {
+
+    .footer2{
+        display: flex;
+        align-items: center;
+    }
+    
+
+.administratifs{
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+}
+
+
+
 @media screen and (max-width: 768px) {
 
 
@@ -388,8 +408,12 @@ body, html{
 
     }
 
-    .footer2{
-       height: 5rem;
+   
+
+    .administratifs{
+        margin-bottom: 2rem;
+        justify-content: center;
+      
     }
 
     
