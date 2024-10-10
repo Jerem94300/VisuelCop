@@ -53,6 +53,10 @@ body, html{
     background-color: rgb(29, 89, 124);   
 }
 
+.name__member{
+    text-align: center;
+}
+
 
 
 
@@ -387,28 +391,8 @@ body, html{
        
     }
 
-    .info__member{
-        position: absolute;
-        display: flex;
-        align-self: end;
-       
 
-    }
-
-    .job__member{
-        display: flex;
-        margin-top: 1rem;
-        align-self: center;
-    }
-
-    .name__member, .firstName__member{
-        display: flex;
-        justify-self: end;
-        align-self: end;
-
-
-
-    }
+    
 
    
 
