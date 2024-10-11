@@ -149,6 +149,17 @@
     border-radius: 1rem;
 }
 
+.title__other{
+    margin-left: 6.5rem;
+}
+
+.picture__item{
+    width: 50%;
+    border-radius: 1rem;
+    margin-left: 6.5rem;
+
+}
+
 
 
 
@@ -492,6 +503,14 @@
         justify-content: center;
     }
 
+    .title__other{
+        margin-left: 0;
+    }
+
+    .other__paragraph{
+        margin-left: 2rem;
+    }
+
 
  
 
@@ -542,6 +561,18 @@
     text-align: center;
     margin-bottom: 2rem;
 
+}
+
+.picture__item{
+    width: 100%;
+    margin: 0;
+    
+    border-radius: 1rem;
+}
+
+.project__content{
+    display: flex;
+    flex-direction: column;
 }
 
     
