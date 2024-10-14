@@ -18,7 +18,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <link rel="stylesheet" href="/CSS/style_member.css" />
+    <link rel="stylesheet" href="/CSS/style_contact.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Community-audiovisuel</title>
@@ -249,144 +249,57 @@
 
     <main class="main">
       <div class="container">
-        <section class="id__member d-flex">
-          <div
-            class="picdata__member d-flex flex-column justify-content-center grid gap-0 column-gap-3"
-          >
-            <div class="picdata p-2 g-col-6">
-              <img
-                src="/ASSETS/IMAGES/member1.jpeg"
-                alt="Photo membre"
-                class="picture__picdata mb-3"
-              />
-            </div>
-            <div class="dataMember text-white fw-semibold mb-3 p-2 g-col-6">
-              <p>Harry Potter</p>
-              <p>Photographe</p>
-              <p>Date de disponibilité : 01/01/2025</p>
-              <p>Année d'expérience : 4 ans</p>
-              <p></p>
-            </div>
-            <div class="exp__member text-white p-2 g-col-6">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt velit, rerum alias, odit eaque possimus facilis nulla
-                laudantium aut ab similique, sed cupiditate. Unde explicabo
-                ullam minima animi fugiat! Nihil, beatae dicta! Dolorum suscipit
-                distinctio nulla in aliquid totam officia odio assumenda
-                reiciendis! Eligendi minima eveniet iste, aliquam molestiae
-                voluptatibus?
-              </p>
-            </div>
-          </div>
-          <div class="contact__member d-flex flex-column">
-            <h2 class="h2__title w-semibold text-white p-2 d-flex">
-              CONTACTER CE MEMBRE
-            </h2>
-            <p class="number__phone w-semibold text-white mt-4 p-2">
-              06 56 32 98 33
-            </p>
-            <label
-              class="exp__label w-semibold text-white p-2"
-              for="expediteur "
-              >Expediteur</label
-            ><textarea name="exp__area" id="exp__area"></textarea>
-            <label
-              class="subject__label w-semibold text-white p-2"
-              for="subject"
-              >Sujet</label
-            ><textarea name="exp__area" id="exp__area"></textarea>
-            <label
-              class="message__label w-semibold text-white p-2"
-              for="message"
-              >Message</label
-            ><textarea name="exp__area" id="exp__area"></textarea>
-            <button class="btn__contact mt-3" type="button">Envoyer</button>
-          </div>
-        </section>
-        <section class="work__member row d-flex">
-          <div
-            class="first__video col-6 mb-4 d-flex flex-column justify-content-center align-items-center"
-          >
-            <h2 class="title__h2 fs-3 fw-semibold text-white mb-2">
-              Projet N°1
-            </h2>
-            <video controls poster="/ASSETS/Videos/cic.ogv" autoplay muted loop>
-              <source src="/ASSETS/Videos/cic.mp4" type="video/mp4" />
-              <source src="/ASSETS/Videos/cic.webm" type="video/webm" />
-            </video>
-          </div>
+        <h2 class="h2 fs-4 fw-semibold text-white">Contactez-nous</h2>
+        <div class="form mb-5 text-white">
+            <form action="">
 
-          <div
-            class="second__video col-6 mb-4 d-flex flex-column justify-content-center align-items-center"
-          >
-            <h2 class="title__h2 fs-3 fw-semibold text-white mb-2">
-              Projet N°2
-            </h2>
-            <video controls poster="/ASSETS/Videos/cic.ogv" autoplay muted loop>
-              <source src="/ASSETS/Videos/cic.mp4" type="video/mp4" />
-              <source src="/ASSETS/Videos/cic.webm" type="video/webm" />
-            </video>
-          </div>
+                <div class="form-radio d-flex justify-content-evenly mb-4">
+                    <p class="radio-content">
+                        <input type="radio" name="food" id="frites" value="frites" checked>
+                        <span class="radio-label">Monsieur</span>
+                    </p>
 
-          <div
-            class="third__video video__content col-6 mb-4 d-flex flex-column justify-content-center align-items-center"
-          >
-            <h2 class="title__h2 fs-3 fw-semibold text-white mb-2">
-              Projet N°3
-            </h2>
-            <video controls poster="/ASSETS/Videos/cic.ogv" autoplay muted loop>
-              <source src="/ASSETS/Videos/cic.mp4" type="video/mp4" />
-              <source src="/ASSETS/Videos/cic.webm" type="video/webm" />
-            </video>
-          </div>
+                    <p class="radio-content">
+                        <input type="radio" name="food" id="raclette" value="raclette">
+                        <span class="radio-label">Madame</span>
+                    </p>
 
-          <div
-            class="four__video video__content col-6 mb-4 d-flex flex-column justify-content-center align-items-center"
-          >
-            <h2 class="title__h2 fs-3 fw-semibold text-white mb-2">
-              Projet N°4
-            </h2>
-            <video controls poster="/ASSETS/Videos/cic.ogv" autoplay muted loop>
-              <source src="/ASSETS/Videos/cic.mp4" type="video/mp4" />
-              <source src="/ASSETS/Videos/cic.webm" type="video/webm" />
-            </video>
-          </div>
-        </section>
+                    <p class="radio-content">
+                        <input type="radio" name="food" id="fondue" value="fondue">
+                        <span class="radio-label">Autre</span>
+                    </p>
 
-        <section class="other__project d-flex flex-column justify-content-evenly p-4">
-            <div class="title__other w-50 mb-4">
-                <h2 class="title__other__project fs-3 fw-semibold text-white">
-                Autres Projets
-                </h2>
-              <div class="first__project">
-                <div class="other__title fs-3 fw-semibold text-white">
-                Réalisation d'un film avec Luc Besson
                 </div>
-              </div>
-            </div>
-            <div class="project__content d-flex justify-content-around align-items-center">
-              <div class="other__picture">
-                <img
-                  src="/ASSETS/IMAGES/pro.jpeg"
-                  alt="image p.diddy"
-                  class="picture__item mb-4"/>
-              </div>
-              
-              <div class="other__paragraph w-50">
-                  <p class="paragraph__item text-center text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  autem accusamus porro voluptatum, fugit quasi quidem amet
-                  distinctio modi dignissimos. Deserunt, voluptatibus molestias.
-                  Neque explicabo ad aperiam dolorem, rerum illo voluptatem!
-                  Commodi, nulla? Quasi commodi excepturi veniam officia
-                  ducimus, tempore, distinctio magni, natus earum explicabo illo
-                  perferendis! Vero, est libero!
-                  </p>
+
+                <div class="form__group d-flex justify-content-between mb-2">
+                    <label for="name">Noms</label>
+                    <input type="text" id="name" name="name" class="form__control">
                 </div>
-              
-            </div>
-        </section>
+                <div class="form__group d-flex justify-content-between mb-2">
+                    <label for="firstName">Prénoms</label>
+                    <input type="text" id="name" name="name" class="form__control">
+                </div>
+                <div class="form__group d-flex justify-content-between mb-2">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form__control">
+                </div>
+                <div class="form__group d-flex flex-column justify-content-between mb-5">
+                    <label for="message" class="text__message mb-2" >Message</label>
+                    <textarea name="message" id="message__form"></textarea>
+                </div>
+
+
+                <div class="btn__form d-flex justify-content-around ">
+                <button type="submit" class="btn__submit">VALIDER</button>
+       
+
+                <button type="reset" class="btn__reset">EFFACER</button>
+                </div>
+
+            </form>
+        </div>
+
+
       </div>
     </main>
 
